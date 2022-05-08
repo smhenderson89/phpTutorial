@@ -9,6 +9,7 @@
     <title>Document</title>
   </head>
 
+  
   <?php // Writing HTML in php ?>
   <body> 
     <?php
