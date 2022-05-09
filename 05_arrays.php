@@ -98,6 +98,8 @@ echo "ReverseSort".json_encode($fruits).'<br>';
 // Associative arrays
 // ============================================
 
+
+
 // Create an associative array
 
 // Get element by key
