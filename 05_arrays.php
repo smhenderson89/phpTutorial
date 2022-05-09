@@ -85,7 +85,12 @@ echo json_encode($merged);
 */
 
 // Sorting of array (Reverse order also)
-
+/* 
+sort($fruits); // sorts aphabetical
+echo "Sort".json_encode($fruits).'<br>';
+rsort($fruits);
+echo "ReverseSort".json_encode($fruits).'<br>';
+*/
 
 // https://www.php.net/manual/en/ref.array.php
 
