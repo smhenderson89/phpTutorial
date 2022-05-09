@@ -12,33 +12,77 @@ echo '</pre>';
 */
 
 // Get element by index
-echo $fruits[1].'<br>';
+// echo $fruits[1].'<br>';
 
 // Set element by index
+/*
+$fruits[0] = 'Peach';
+echo '<prev>';
+var_dump($fruits);
+echo '</prev>'.'<br>'; // Prev -> html way to display full version of an array
+
+print_r($fruits).'<br>'; // Pretty version of printing an array
+echo json_encode($fruits); // Most easily readable version of an array
+*/
 
 // Check if array has element at index 2
+// echo isset($fruits[2]).'<br>'; // true
 
 // Append element
+// $fruits[] = 'Banana'; // way to append an element to an array
+// echo json_encode($fruits).'<br>';
 
 // Print the length of the array
+// echo count($fruits).'<br>';
 
 // Add element at the end of the array
+//array_push($fruits, 'foo');
+// echo json_encode($fruits);
 
 // Remove element from the end of the array
+/* $popped = array_pop($fruits);
+echo "Popped array is $popped".'<br>';
+echo json_encode($fruits).'<br>';
+*/
 
 // Add element at the beginning of the array
+/*
+array_unshift($fruits, 'bar');
+echo json_encode($fruits).'<br>';
+*/
 
 // Remove element from the beginning of the array
+/*
+array_shift($fruits);
+echo json_encode($fruits).'<br>';
+*/
 
 // Split the string into an array
+/* 
+$string = "Bannna,Apple,Peach";
+$newArray = explode(",", $string);
+echo json_encode($newArray);
+*/
 
 // Combine array elements into string
+// echo implode("&", $fruits);
 
 // Check if element exist in the array
+/* 
+var_dump (in_array('Apple', $fruits));
+echo '<br>';
+var_dump (in_array('Mango', $fruits));
+*/
 
 // Search element index in the array
+// var_dump(array_search('Apple', $fruits));
 
 // Merge two arrays
+/*
+$vegetabes = ["Potato", "cucumber"];
+$merged = array_merge($fruits, $vegetabes);
+echo json_encode($merged);
+*/
 
 // Sorting of array (Reverse order also)
 
