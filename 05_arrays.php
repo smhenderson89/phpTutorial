@@ -1,10 +1,18 @@
 <?php
 
 // Create array
+$fruits = ["Banana", "Apple", "Orange"];
+
 
 // Print the whole array
+/* 
+echo '<pre>'; // pre = preformatted text: https://www.w3schools.com/tags/tag_pre.asp
+var_dump($fruits);
+echo '</pre>';
+*/
 
 // Get element by index
+echo $fruits[1].'<br>';
 
 // Set element by index
 
