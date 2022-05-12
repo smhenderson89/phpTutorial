@@ -1,5 +1,8 @@
 <?php
 // Magic constants
+echo __DIR__.'<br>';
+echo __FILE__.'<br>';
+echo __LINE__.'<br>';
 
 // Create directory
 
@@ -20,3 +23,4 @@
 // filesize
 // disk_free_space
 // file
+?>
