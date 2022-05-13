@@ -4,6 +4,7 @@
 // require_once "Person.php";
 require_once "Student.php";
 
+echo 'new file locations hooray it works!'.'<br>';
 
 $p = new Person("Brad", "Traversy");
 $p->setAge(30);
