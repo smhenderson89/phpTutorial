@@ -23,16 +23,19 @@
 // file_put_contents('sample.txt', 'Some Content');
 
 // file_get_contents from URL
-$usersJson = file_get_contents('https://jsonplaceholder.typicode.com/users');
-echo $usersJson;
+// $usersJson = file_get_contents('https://jsonplaceholder.typicode.com/users');
+// echo $usersJson;
 
-$users = json_decode($usersJson, true);
-echo $users;
+// $users = json_decode($usersJson, true);
+// echo $users;
 
 // https://www.php.net/manual/en/book.filesystem.php
 // file_exists
+file_exists('sample.txt'); // true
 // is_dir
+is_dir('test'); // false
 // filemtime
+
 // filesize
 // disk_free_space
 // file
