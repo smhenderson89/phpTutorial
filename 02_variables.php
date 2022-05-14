@@ -24,14 +24,14 @@ $height = 1.85;
 $salary = null;
 
 // Print the variables. Explain what is concatenation
-/* 
+
 echo $name.'<br>';
 echo $age.'<br>';
 echo $isMale.'<br>'; // TRUE/FALSE convert into a number
 echo $isFemale.'<br>'; // FALSE is not printed??
 echo $height.'<br>';
 echo $salary.'<br>'; // NULL is not printed
-*/
+
 
 // Print types of the variables
 /* 
